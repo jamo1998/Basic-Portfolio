@@ -215,8 +215,8 @@ p.port {
     color: #ffffff;
 }
 
-@media only screen and (max-width: 800px) {
-    body {
+@media only screen and (min-width: 400px) {
+    html {
         font-size: 12px;
     }
 
@@ -230,8 +230,8 @@ p.port {
     }
 }
 
-@media only screen and (max-width: 400px) {
-    body {
+@media only screen and (min-width: 800px) {
+    html {
         font-size: 10px;
     }
 
