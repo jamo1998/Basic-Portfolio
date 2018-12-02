@@ -215,3 +215,33 @@ p.port {
     color: #ffffff;
 }
 
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container {
+        max-width: 768px;
+    }
+    
+    img {
+        max-width: 120px;
+        max-height: 120px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        font-size: 10px;
+    }
+
+    .container {
+        max-width: 3280px;
+    }
+
+    img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+}
+
